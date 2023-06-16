@@ -1,0 +1,55 @@
+.ipad_width{
+    display:none;
+}
+@media screen and (max-width:500px){
+    .top_heading{
+        letter-spacing: 2rem !important;
+        margin-top:9% !important;
+        margin-left:5% !important;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .thumbnail{
+        width:100% !important;
+        height:230px !important;
+        padding:25px !important;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .thumbnail{
+        width:100% !important;
+        height:290px !important;
+        padding:25px !important;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 1000px){
+    .top_heading{
+        margin-top:3.9% !important;
+    }
+
+    .col-md-6{
+        width:100% !important;
+    }
+
+    .ipad_width{
+        display:block;
+    }
+
+    .desktop_width{
+        display:none;
+    }
+
+    .p-5{
+        padding:2% !important;    
+    }
+
+    
+}
+
+
